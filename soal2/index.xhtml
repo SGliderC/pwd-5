@@ -23,29 +23,43 @@
         </ol>
         </fieldset>
     </form>
-    <text style="text-align: left;">Reservation Room Form</text>
-    <ol>
-        <li><label for="reservor_name">Reservatorn Name</label></li>
-        <input type="text" id="reservor_name" name="reservor_name" size="30"/>
-        <li><label for="booking_date">Booking date</label></li>
-        <input type="text" id="booking_date" name="booking_date" size="30"/>
-        <li><label for="room_type">Room Type</label></li>
-        <select name="room_type">
+   <form>
+    <fieldset>
+        <legend>Room Details</legend>
+        <ol>
+        <li>
+            <label for="reservor_name">Reservator Name</label>
+            <input type="text" id="reservor_name" name="reservor_name" size="30"/>
+        </li>
+        <li>
+            <label for="booking_date">Booking Date</label>
+            <input type="text" id="booking_date" name="booking_date" size="30"/>
+        </li>
+        <li>
+            <label for="room_type">Room Type</label>
+            <select name="room_type" id="room_type">
             <option>Deluxe</option>
-            <option>Standart</option>
+            <option>Standard</option>
             <option>Suite</option>
-        </select>
-        <li><label for="bed_type">Bed Type</label></li>
-        <select name="bed_type">
+            </select>
+        </li>
+        <li>
+            <label for="bed_type">Bed Type</label>
+            <select name="bed_type" id="bed_type">
             <option>Single Bed</option>
             <option>Double Bed</option>
-            <option>Queen size</option>
-            <option>King size</option>
-        </select>
-        <li><label for="breakfast">Breakfast</label></li>
-        <input type="radio" id="breakfast" name="breakfast"/>With Breakfast
-        <input type="radio" id="breakfast" name="breakfast"/>Without Breakfast
-    </ol>
+            <option>Queen Size</option>
+            <option>King Size</option>
+            </select>
+        </li>
+        <li>
+            <label>Breakfast</label>
+            <input type="radio" id="breakfast_yes" name="breakfast" value="yes"/>With Breakfast
+            <input type="radio" id="breakfast_no" name="breakfast" value="no"/>Without Breakfast
+        </li>
+        </ol>
+    </fieldset>
+    </form>
     <form>
         <fieldset>
         <legend>Payment</legend>
