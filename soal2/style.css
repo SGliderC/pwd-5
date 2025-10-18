@@ -1,0 +1,104 @@
+/* style.css */
+
+/* Reset default margin and font */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+    color: #333;
+}
+
+/* Title styling */
+h1 {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Form container */
+form {
+    width: 80%;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 2px solid #0077b6;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    color: #0077b6;
+    padding: 0 10px;
+}
+
+/* Ordered list styling */
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+/* Label and input styling */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 30px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #005f8e;
+}
+
+/* Section title */
+text {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #023e8a;
+    margin: 20px auto;
+    text-align: center;
+}
